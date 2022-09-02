@@ -14,7 +14,7 @@ top_image:
 cover: 
 highlight_shrink: false
 ---
-# 引言
+# 前言
 世界上除了学不完的知识，还有排不完的bug。。
 
 本篇记录自己在使用butterfly主题时遇到的各种报错，每个都是独一无二且千奇百怪的
