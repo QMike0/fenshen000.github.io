@@ -48,13 +48,13 @@ cover:
 > - [安装Anaconda时，不要选择“All uers”，而应该选择当前用户](#跳转1)
 > - [要习惯用“管理员权限”打开CMD，在输入相关命令，可以避免由于文件夹权限不足等受到限制](#跳转2)
 
-## 安装及初始环境配置
+## 1. 安装及初始环境配置
 
-### 下载地址
+### 1.1 下载地址
 
 可以通过[Anaconda官网](https://www.anaconda.com/products/distribution)下载，不过速度一般；另外可以通过[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)进行下载
 
-### 配置环境变量
+### 1.2 配置环境变量
 
 如果是windows的话需要去 控制面板\系统和安全\系统\高级系统设置\环境变量\用户变量\PATH 中添加 anaconda的安装目录的Scripts文件夹，例如默认安装路径C:\ProgramData\Anaconda3\Scripts，看个人安装路径不同需要自己调整。
 
@@ -93,7 +93,7 @@ cover:
 
 
 
-### 同时自动安装的程序
+### 1.3 同时自动安装的程序
 
 在 Windows 上，会随 Anaconda 一起安装一批应用程序：
 
@@ -113,7 +113,7 @@ conda upgrade --all
 
 
 
-## 配置镜像地址(更换为清华镜像)
+## 2. 配置镜像地址(更换为清华镜像)
 
 修改配置文件下载地址，**修改为清华镜像**：
 
@@ -143,7 +143,7 @@ conda config --show
 
 
 
-## 安装/卸载第三方包
+## 3. 安装/卸载第三方包
 
 需要安装所需的第三方包时，在CMD中输入以下指令来安装requests包：
 
@@ -189,7 +189,7 @@ pip install requests_name
 
 
 
-### **附：:star:pip和conda的区别：**
+### **附：pip和conda的区别**
 
 > 来自Anaconda[官方文章](https://www.anaconda.com/blog/understanding-conda-and-pip)
 
@@ -215,7 +215,7 @@ pip install requests_name
 
 
 
-## 管理虚拟环境（基于命令行窗口）
+## 4. 管理虚拟环境（基于命令行窗口）
 
 用anaconda来创建我们一个个独立的python环境。接下来的例子都是在命令行操作的：
 
@@ -287,7 +287,7 @@ conda remove --name environment_name --all
 
 
 
-**（5）关于环境总结：**
+**（5）环境相关指令总结：**
 
 ```
 # 创建一个名为faultcode的环境，指定Python版本是3.9（不用管是3.9.x，conda会为我们自动寻找3.9.x中的最新版本）
@@ -332,7 +332,7 @@ conda info -e
 
 
 
-其它的常用命令：
+**（6）其它的常用命令：**
 
 ```
 conda info                   # 列出Anaconda的所有信息，包括conda version、python version、package cache、envs 								directories等
@@ -354,15 +354,11 @@ conda update requests_name   # 更新requests包
 conda env export > environment.yaml   # 导出当前环境的包信息
 
 conda env create -f environment.yaml  # 用配置文件创建新的虚拟环境
-
-
-
-
 ```
 
 
 
-## 修改Anaconda虚拟环境的创建路径
+## 5. 修改Anaconda虚拟环境的创建路径
 
 首先，明确如何查看Anaconda虚拟环境的创建路径
 
@@ -388,7 +384,7 @@ conda config --show
 >
 > 为避免造成C盘空间被占用，采用以下两种方法修改虚拟环境安装路径到想要的文件夹。
 
-### 不修改默认创建路径
+### 5.1 不修改默认创建路径
 
 以在G:\Anaconda\envs中创建名为faultcode的虚拟环境为例，输入相应的命令：
 
@@ -426,27 +422,27 @@ conda install -n faultcode package_name
 
 
 
-### 修改默认创建路径
+### 5.2 修改默认创建路径
 
-> 方法一比较麻烦，需要随时记住完整路径，可以考虑直接修改默认创建路径。
+方法一比较麻烦，需要随时记住完整路径，可以考虑直接修改默认创建路径。
+
+对应两种解决方式：一种是通过添加dir来替换默认路径，一种是直接配置c盘路径下的.condarc文件
+
+<span id="跳转1">需要注意的是，若按照网上常规的方法，例如[Anaconda更改虚拟环境安装位置 - CSDN](https://blog.csdn.net/weixin_44622686/article/details/125011729)，虽然貌似已经修改了默认创建路径，但实际操作后可能会发现仍然是创建到原先的C盘路径，**出现这种情况的原因是在安装Anaconda时选择的是All User，而不是Just Me**。</span>
+
+上述两种“解决方法”一定是在**安装Anaconda时选择的是Just me**，否则无法生效！！！
+
+> 当然，如果不小心安装时选择了All User，也可以解决：
 >
-> 对应两种解决方式：一种是通过添加dir来替换默认路径，一种是直接配置c盘路径下的.condarc文件
+> - <span id="跳转2">以管理员身份运行CMD，再运行命令</span>
 >
-> <span id="跳转1">需要注意的是，若按照网上常规的方法，例如[Anaconda更改虚拟环境安装位置 - CSDN](https://blog.csdn.net/weixin_44622686/article/details/125011729)，虽然貌似已经修改了默认创建路径，但实际操作后可能会发现仍然是创建到原先的C盘路径，**出现这种情况的原因是在安装Anaconda时选择的是All User，而不是Just Me**。</span>
+> （这样也可以解决`conda upgrade all`时由于anaconda文件夹权限不足，部分软件包无法安装的情况）
 >
-> 上述两种“解决方法”一定是在**安装Anaconda时选择的是Just me**，否则无法生效！！！
->
-> > 当然，如果不小心安装时选择了All User，也可以解决：
-> >
-> > - <span id="跳转2">以管理员身份运行CMD，再运行命令</span>
-> >
-> >   （这样也可以解决`conda upgrade all`时由于anaconda文件夹权限不足，部分软件包无法安装的情况）
-> >
-> > - 修改anaconda安装文件夹的权限，属性->安全->Users 权限全部允许（有可能无法生效）
+> - 修改anaconda安装文件夹的权限，属性->安全->Users 权限全部允许（有可能无法生效）
 
 
 
-#### 通过添加dir来替换默认路径
+#### 5.2.1 通过添加dir来替换默认路径
 
 在CMD中输入`conda config --show`后，会发现虚拟环境目录envs_dirs有多条，其实默认我们会先使用第一个目录，要通过修改配置来重新确定默认环境路径。首先明确修改配置的语法：
 
@@ -479,7 +475,7 @@ conda config --add envs_dirs dir（路径）
 
 
 
-#### 直接配置c盘路径下的.condarc文件
+#### 5.2.2 直接配置c盘路径下的.condarc文件
 
 在用户路径下修改.condarc，在`C:\Users\User_name\.condarc`下
 
@@ -523,9 +519,9 @@ pkgs_dirs:
 >
 > - [在 PyCharm 里创建运行/调试配置 - 慕课网](https://www.imooc.com/wiki/pycharmlesson/runningconfig.html)
 
-## 配置环境及安装第三方库
+## 1. 配置环境及安装第三方库
 
-### 基于纯python环境
+### 1.1 基于纯python环境
 
 #### ***配置Python环境***
 
@@ -583,7 +579,7 @@ pkgs_dirs:
 
 
 
-### 基于Anaconda创建的环境
+### 1.2 基于Anaconda创建的环境
 
 #### ***配置python环境***
 
@@ -622,7 +618,7 @@ pkgs_dirs:
 
 
 
-### Pycharm创建运行、调试配置
+### 1.3 Pycharm创建运行、调试配置
 
 > run/debug configuration
 
@@ -637,7 +633,7 @@ pkgs_dirs:
 
 
 
-### 其它技巧
+### 1.4 其它技巧
 
 #### ***界面汉化***
 
@@ -694,7 +690,7 @@ pkgs_dirs:
 
 
 
-## 安装、使用PyQt5及相关库
+## 2. 安装、使用PyQt5及相关库
 
 安装有两种方法：
 
@@ -749,7 +745,7 @@ pkgs_dirs:
 
 
 
-## 安装、使用Pyinstaller
+## 3. 安装、使用Pyinstaller
 
 安装也是同上，有两种方法。此处参考[pycharm中安装并配置pyinstaller - CSDN](https://blog.csdn.net/qq_43703185/article/details/119342713)
 
@@ -769,7 +765,7 @@ $FileName$
 
 # Python篇
 
-## 纯Python的安装
+## 1. 纯Python的安装
 
 [廖雪峰的官方网站-安装Python](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014316090478912dab2a3a9e8f4ed49d28854b292f85bb000)
 
@@ -777,7 +773,7 @@ $FileName$
 
 
 
-## 教程推荐
+## 2. 教程推荐
 
 [Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
 

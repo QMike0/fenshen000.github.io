@@ -21,7 +21,7 @@ highlight_shrink: false
 
 排除bug是一个非常折腾+耗时间的过程，或许本文会一直更新下去吧~（恼）
 
-# YAMLException: bad indentation of a mapping entry 
+# 1. YAMLException: bad indentation of a mapping entry 
 ```报错示例
 # 运行hexo g后出现如下报错
 YAMLException: bad indentation of a mapping entry (7:20)
@@ -44,7 +44,7 @@ YAMLException: bad indentation of a mapping entry (7:20)
 ```
 > 这或许是目前遇到的最多的报错了吧。。
 
-# warning: adding embedded git repository: XXXX
+# 2. warning: adding embedded git repository: XXXX
 
 ```报错示例
 # 运行git add .后出现如下报错
@@ -80,7 +80,7 @@ hint: See "git help submodule" for more information.
 		# 或者也可以使用butterfly的ssh地址
 ```
 
-# github报错`Jekyll::Errors::MissingDependencyException`和`Gem::MissingSpecError`
+# 3. github报错Jekyll::Errors::MissingDependencyException和Gem::MissingSpecError
 
 ```报错示例
 #配置完butterfly主题，在将本地博客文件push到github上后，显示如下错误：
@@ -106,7 +106,7 @@ github-pages 227 | Error:  The butterfly theme could not be found.
      由于这一步出现在github page build and deploy，因此初步判断是，github无法根据仓库内容构建和部署github page导致的正常报错，而我没有将网站部署在github page的想法，对于后续Netlify网站的部署也没有任何影响，因此目前对这个报错可以忽略不管。
 ```
 
-# YAMLException: duplicated mapping key
+# 4. YAMLException: duplicated mapping key
 
 ```报错示例
 # 输入hexo g后，出现如下报错：

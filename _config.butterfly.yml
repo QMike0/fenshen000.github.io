@@ -184,7 +184,7 @@ anchor: true
 toc:
   post: true
   page: false
-  number: true
+  number: false
   expand: false
   style_simple: false # for post
 
