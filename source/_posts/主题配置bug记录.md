@@ -9,7 +9,6 @@ categories:
 - 
 - 
 
-highlight_shrink:
 description: 总能遇到千奇百怪的bug，算是一本“怪物图鉴”了吧
 keywords: Butterfly, bug, hexo
 top_image: 
@@ -80,6 +79,52 @@ hint: See "git help submodule" for more information.
 		# 格式为git submodule add <url> <path>
 		git submodule add https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 		# 或者也可以使用butterfly的ssh地址
+```
+
+# github报错`Jekyll::Errors::MissingDependencyException`和`Gem::MissingSpecError`
+
+```报错示例
+#配置完butterfly主题，在将本地博客文件push到github上后，显示如下错误：
+/usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:84:in `rescue in gemspec': The butterfly theme could not be found. (Jekyll::Errors::MissingDependencyException)
+	from /usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:81:in `gemspec'
+	from /usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:19:in `root'
+	from /usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:12:in `initialize'
+    ......
+/usr/local/lib/ruby/2.7.0/rubygems/dependency.rb:311:in `to_specs': Could not find 'butterfly' (>= 0) among 148 total gem(s) (Gem::MissingSpecError)
+Checked in 'GEM_PATH=/github/home/.gem/ruby/2.7.0:/usr/local/lib/ruby/gems/2.7.0:/usr/local/bundle', execute `gem env` for more information
+	from /usr/local/lib/ruby/2.7.0/rubygems/dependency.rb:323:in `to_spec'
+	from /usr/local/lib/ruby/2.7.0/rubygems/specification.rb:986:in `find_by_name'
+	from /usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:82:in `gemspec'
+    ......
+  Logging at level: debug
+Configuration file: /github/workspace/./_config.yml
+             Theme: butterfly
+github-pages 227 | Error:  The butterfly theme could not be found.
+```
+
+```原因&解决方法
+
+
+
+```
+
+# YAMLException: duplicated mapping key
+
+```报错示例
+# 输入hexo g后，出现如下报错：
+YAMLException: duplicated mapping key (16:1)
+
+ 13 | keywords: Butterfly, hexo
+ 14 | top_image:
+ 15 | cover:
+ 16 | highlight_shrink: false
+------^
+    at generateError (D:\Blog\悠悠の哉\node_modules\js-yaml\lib\loader.js:183:10)
+......
+```
+
+```原因&解决方法
+Front内容出现了重复，需要将重复内容删除
 ```
 
 

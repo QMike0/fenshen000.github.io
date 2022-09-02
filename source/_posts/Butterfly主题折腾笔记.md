@@ -9,7 +9,6 @@ categories:
 - 
 - 
 
-highlight_shrink:
 description: Butterfly主题下，博客美化过程记录
 keywords: Butterfly, hexo
 top_image: 
