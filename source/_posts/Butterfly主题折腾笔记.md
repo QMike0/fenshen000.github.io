@@ -6,8 +6,7 @@ tags:
 - 
 - 
 categories:
-- 
-- 
+- 博客
 
 description: Butterfly主题下，博客美化过程记录
 keywords: Butterfly, hexo

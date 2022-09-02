@@ -6,8 +6,7 @@ tags:
 - 
 - 
 categories:
-- 
-- 
+- 博客
 
 description: 总能遇到千奇百怪的bug，算是一本“怪物图鉴”了吧
 keywords: Butterfly, bug, hexo
