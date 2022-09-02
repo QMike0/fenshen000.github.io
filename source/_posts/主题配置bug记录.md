@@ -1,7 +1,7 @@
 ---
 title: butterfly主题配置bug记录
 date: 2022-9-1 17:53:00
-updated: 
+updated: 2022-9-2 11:02:00
 tags:
 - 
 - 
@@ -103,9 +103,8 @@ github-pages 227 | Error:  The butterfly theme could not be found.
 ```
 
 ```原因&解决方法
-
-
-
+原因：尚未清楚出现这个报错的原因。
+     由于这一步出现在github page build and deploy，因此初步判断是，github无法根据仓库内容构建和部署github page导致的正常报错，而我没有将网站部署在github page的想法，对于后续Netlify网站的部署也没有任何影响，因此目前对这个报错可以忽略不管。
 ```
 
 # YAMLException: duplicated mapping key
