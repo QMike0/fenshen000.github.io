@@ -20,16 +20,20 @@ highlight_shrink: false
 
 # 目前想实现的功能
 
-- 网页预加载画面
+- 修改网页预加载画面
 - 日期、时间、天气时钟
 - 看板娘
 - 其它图标库和设置
 - 一图流、视频流全局背景+全局渐变
-- 更换字体
+- 更换字体（建立自己的字体库）
 - 公告跟随文章自动更新
-- 网站页脚自定义，如添加链接、更换颜色(设置图片)
+- footer自定义，如添加链接、更换颜色(设置图片，或者透明背景)
 - “归档”页面标题和top_img的设置（总是出问题）
 - 更换网站logo
+- 评论区
+- 网站SEO优化
+- 白天、黑夜模式转换特效/网站背景变换
+- 网站数据统计（类似github以及图标格式，想置于about页面）
 
 
 
@@ -44,6 +48,8 @@ https://blog.imzjw.cn/posts/b74f504f/
 https://akilar.top/posts/5b8f515f/
 
 [Guo Le's Blog](https://guole.fun/)
+
+[你真是一个美好的人类 - ConstOwn (juanertu.com)](https://blog.juanertu.com/)
 
 
 

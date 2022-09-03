@@ -115,7 +115,7 @@ aside:
 
   > 比在`_config.butterfly.yml`中定义要方便，另外注意图片格式
 
-# 4. 图标
+# 4. 图标库
 
 Butterfly支持 [font-awesome v6](https://fontawesome.com/icons?from=io)图标。
 
@@ -192,16 +192,4 @@ hr_icon:
   -10px：图标位于分割线中间
 
   0px：图标位于分割线下方
-
-# 可参考网址
-
-https://azure0202.github.io/2021/10/03/Butterfly%E8%87%B4%E7%9F%A5%E8%AE%B0/
-
-https://zfe.space/categories/%E6%95%99%E7%A8%8B
-
-https://blog.imzjw.cn/posts/b74f504f/
-
-https://akilar.top/posts/5b8f515f/
-
-
 

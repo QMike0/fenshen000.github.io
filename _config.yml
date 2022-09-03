@@ -4,7 +4,7 @@
 
 # Site
 title: '悠悠の哉'
-subtitle: 'Welcome ^_^!'
+subtitle: 'Welcome here |ω・)'
 description: '什么都没有做的话，就不要去假装后悔'
 keywords: Blog, qmike, 博客
 author: QMike
@@ -111,3 +111,10 @@ search:
   field: post
   content: true
  # template: ./search.xml
+
+markdown:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      options:
+        strict: false
