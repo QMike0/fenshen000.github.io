@@ -43,5 +43,7 @@ https://blog.imzjw.cn/posts/b74f504f/
 
 https://akilar.top/posts/5b8f515f/
 
+[Guo Le's Blog](https://guole.fun/)
+
 
 
