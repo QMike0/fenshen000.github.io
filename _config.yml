@@ -105,3 +105,9 @@ deploy:
   type: git
   repository: https://github.com/fenshen000/fenshen000.github.io.git
   branch: main
+
+search:
+  path: search.xml
+  field: post
+  content: true
+ # template: ./search.xml

@@ -1,5 +1,5 @@
 ---
-title: butterfly主题配置bug记录
+title: butterfly主题配置bug记录（更新中）
 date: 2022-9-1 17:53:00
 updated: 2022-9-2 11:02:00
 tags:
