@@ -141,6 +141,6 @@ baidu_url_submit:
 nofollow:
   enable: true
   field: site
-  exclude:''
+  exclude: ''
 
 
