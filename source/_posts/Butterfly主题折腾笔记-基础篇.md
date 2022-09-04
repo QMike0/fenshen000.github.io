@@ -1,5 +1,5 @@
 ---
-title: Butterfly主题折腾笔记-基础篇（更新中）
+title: Butterfly主题折腾笔记-基础篇
 date: 2022-8-31 15:00:00
 updated: 2022-9-1 17:30:00
 tags:

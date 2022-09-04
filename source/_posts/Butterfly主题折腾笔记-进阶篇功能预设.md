@@ -1,5 +1,5 @@
 ---
-title: Butterfly主题折腾笔记-进阶篇（待更新）
+title: Butterfly主题折腾笔记-进阶篇功能预设（更新中）
 date: 2022-9-3 10:00:00
 updated: 
 tags:
