@@ -123,7 +123,7 @@ Butterfly支持 [font-awesome v6](https://fontawesome.com/icons?from=io)图标�
 
 对于页面顶部图的配置，除了支持用url链接外，也可以在`source`文件夹下新建`img`文件夹，将图片存储在这里面，调用格式为`"./img/XXXX.jpg"`，加载速度会快一些。
 
-> 注意不要在主题文件夹下的`source/img`文件夹中存储图片，例如`./themes/butterfly/source/img`，据说会因为主题的更新导致图片的丢失。
+> 注意不要在主题文件夹下的`source/img`文件夹中存储图片，例如`./themes/butterfly/source/img`，会因为主题的更新导致图片文件的覆盖丢失。
 
 # 6. 本地搜索功能
 

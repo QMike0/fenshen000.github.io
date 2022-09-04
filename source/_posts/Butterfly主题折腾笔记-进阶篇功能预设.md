@@ -36,7 +36,6 @@ highlight_shrink: false
 - 网站SEO优化
 - 白天、黑夜模式转换特效/网站背景变换
 - 网站数据统计（类似github以及图标格式，想置于about页面）
-- RSS
 
 
 
