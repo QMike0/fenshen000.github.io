@@ -477,8 +477,8 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  - name: google-site-verification
-    content: 9Kq75kUSKuF-wXnvlgGu6WE6oafBUVtfy_90rG07ARw
+  # - name: google-site-verification
+  #   content: 
   - name: baidu-site-verification
     content: code-Qrgr6mKb1Q
 
