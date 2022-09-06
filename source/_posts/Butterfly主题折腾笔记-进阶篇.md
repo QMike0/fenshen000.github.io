@@ -1,24 +1,58 @@
 ---
-title: Butterfly主题折腾笔记-进阶篇功能预设（更新中）
-date: 2022-9-3 10:00:00
-updated: 
+title: Butterfly主题折腾笔记-进阶篇（更新中）
 tags:
-- 
-- 
+  - null
+  - null
 categories:
-- 博客
-
+  - 博客
 description: Butterfly主题安装的进阶内容，主要记录安装文档描述以外的修改，实现一些魔改内容
-keywords: Butterfly, hexo，魔改
-top_image: 
-cover: 
+keywords: 'Butterfly, hexo，魔改'
 highlight_shrink: false
+abbrlink: 5862a9c7
+date: 2022-09-03 10:00:00
+updated:
+top_image:
+cover:
 ---
 # 前言
 本篇是对于[基础篇]()的拓展，写一下自己魔改这个主题的过程（毕竟个性化的才是最好的），万一以后遇到啥问题也可以返回来查一下可能的问题所在。
 魔改是一个非常折腾+耗时间的过程，或许本文会一直更新下去吧~（笑）
 
 > 心中默念一百遍：宁缺毋滥，宁缺毋滥......
+
+
+
+# 实现的功能
+
+## 1. SEO优化搜索引擎收录
+
+<details>
+<summary>点击查看实现步骤</summary>
+<table>
+  <tbody>
+    <tr>
+      <td>参考作者</td>
+      <td>教程原帖</td>
+    </tr>
+    <tr>
+      <td>ConstOwn博客</td>
+      <td><br>Hexo 框架 (六)：SEO 优化及站点被搜索引擎收录设置</td>
+    </tr>
+  </tbody>
+  <colgroup>
+    <col>
+    <col>
+  </colgroup>
+</table>
+参考教程<a href="http://c.biancheng.net" target="_blank">SEO优化引擎收录</a>
+</details>
+
+
+
+
+
+
+
 
 # 目前想实现的功能
 
@@ -53,5 +87,6 @@ https://akilar.top/posts/5b8f515f/
 
 [你真是一个美好的人类 - ConstOwn (juanertu.com)](https://blog.juanertu.com/)
 
+[安知鱼 - 生活明朗 万物可爱 (anzhiy.cn)](https://anzhiy.cn/)
 
-
+[LYXの小破站 (yisous.xyz)](https://yisous.xyz/)

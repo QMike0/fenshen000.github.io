@@ -11,12 +11,13 @@ menu:
   友人帐: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
-  # 示例:
+  # 示例: 
   # List||fas fa-list:
-  # Music: /music/ || fas fa-music
-  # Movie: /movies/ || fas fa-video
+    # Music: /music/ || fas fa-music
+    # Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
+
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -101,11 +102,11 @@ index_img: "./img/top_img.jpg"
 default_top_img: "./img/top_img.jpg"
 
 # The banner image of archive page
-archive_img:
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
@@ -113,7 +114,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: 
 
 # The banner image of category page
 # format:
@@ -140,7 +141,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "You are in a Desert of Knowledge"
+  subtitle: 'You are in a Desert of Knowledge'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -477,7 +478,7 @@ google_adsense:
 
 site_verification:
   # - name: google-site-verification
-  #   content:
+  #   content: 
   - name: baidu-site-verification
     content: code-Qrgr6mKb1Q
 
@@ -554,7 +555,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -598,8 +599,8 @@ display_mode: light
 beautify:
   enable: true
   field: post # site/post
-  title-prefix-icon: '\f52d'
-  title-prefix-icon-color: "#F47466"
+  title-prefix-icon:  '\f52d'
+  title-prefix-icon-color:  '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -709,7 +710,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 2022/8/25 00:00:00
+  publish_date: 2022/8/25 00:00:00  
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -732,9 +733,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: "繁"
+  msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: "简"
+  msgToSimplifiedChinese: '简'
 
 # Read Mode (閲讀模式)
 readmode: false
@@ -820,8 +821,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
-  bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
+  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
@@ -882,7 +883,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false
+  # Add version number to CDN, true or false  
   version: false
 
   # Custom format

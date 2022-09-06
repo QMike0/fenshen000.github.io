@@ -1,15 +1,16 @@
 ---
 title: Anaconda、Pycharm、Python使用方法整理(windows 10)
-date: 2022-9-2 17:17:00
-updated: 
-tags: 
-- 
+tags:
+  - null
 categories:
-- Python
+  - Python
 description: Win10下，基于Anaconda、Pycharm的Python环境搭建详细教程
-keywords: Python, Anaconda安装及使用, Pycharm, 配置python环境
-top_image: 
-cover: 
+keywords: 'Python, Anaconda安装及使用, Pycharm, 配置python环境'
+abbrlink: be8ba79e
+date: 2022-09-02 17:17:00
+updated:
+top_image:
+cover:
 ---
 
 # 前言

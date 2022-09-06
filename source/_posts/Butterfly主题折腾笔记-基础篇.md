@@ -1,18 +1,18 @@
 ---
 title: Butterfly主题折腾笔记-基础篇
-date: 2022-8-31 15:00:00
-updated: 2022-9-1 17:30:00
 tags:
-- 
-- 
+  - null
+  - null
 categories:
-- 博客
-
+  - 博客
 description: Butterfly主题安装的基础内容，是对于安装文档的补充和重点内容的摘取，便于像我这样的小白充分理解文档内容，个性化拓展博客网站的功能
-keywords: Butterfly, hexo，安装文档
-top_image: 
-cover: 
+keywords: 'Butterfly, hexo，安装文档'
 highlight_shrink: false
+abbrlink: a2d08203
+date: 2022-08-31 15:00:00
+updated: 2022-09-01 17:30:00
+top_image:
+cover:
 ---
 
 

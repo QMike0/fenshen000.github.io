@@ -1,18 +1,18 @@
 ---
 title: butterfly主题配置bug记录（更新中）
-date: 2022-9-1 17:53:00
-updated: 2022-9-2 11:02:00
 tags:
-- 
-- 
+  - null
+  - null
 categories:
-- 博客
-
+  - 博客
 description: 总能遇到千奇百怪的bug，算是一本“怪物图鉴”了吧
-keywords: Butterfly, bug, hexo
-top_image: 
-cover: 
+keywords: 'Butterfly, bug, hexo'
 highlight_shrink: false
+abbrlink: 7e01226e
+date: 2022-09-01 17:53:00
+updated: 2022-09-02 11:02:00
+top_image:
+cover:
 ---
 # 前言
 世界上除了学不完的知识，还有排不完的bug。。

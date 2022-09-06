@@ -1,17 +1,17 @@
 ---
 title: VScode添加GitBash终端
-date: 2022-9-4 17:00:00
-updated: 
 tags:
-- 
-- 
+  - null
+  - null
 categories:
-- VScode
-
+  - VScode
 description: 在新版VScode的终端中添加GitBash，注明了相关的注意事项
-keywords: VScode, vscode, gitbash, vscode终端
-top_image: 
-cover: 
+keywords: 'VScode, vscode, gitbash, vscode终端'
+abbrlink: 77940e6f
+date: 2022-09-04 17:00:00
+updated:
+top_image:
+cover:
 ---
 
 # 前言

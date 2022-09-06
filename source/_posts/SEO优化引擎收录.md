@@ -1,18 +1,17 @@
 ---
-title: Butterfly进阶篇（一） - SEO优化搜索引擎收录
-date: 2022-9-4 10:00:00
-updated: 
+title: SEO优化搜索引擎收录
 tags:
-- 
-- 
+  - null
+  - null
 categories:
-- 博客
-
+  - 博客
 description: Butterfly主题安装的进阶内容，用过SEO完成优化搜索引擎对个人博客的收录
-keywords: Butterfly, hexo, 魔改, SEO, 搜索引擎收录, 百度收录, 谷歌收录, 必应收录
-top_image: 
-cover: 
-highlight_shrink: false
+keywords: 'Butterfly, hexo, 魔改, SEO, 搜索引擎收录, 百度收录, 谷歌收录, 必应收录'
+abbrlink: 2a1b5a62
+date: 2022-09-04 10:00:00
+updated:
+top_image:
+cover:
 ---
 # 前言
 
@@ -205,11 +204,15 @@ https://你的域名/baidusitemap.xml
 
 提交谷歌搜索引擎比较简单，在提交之前，我们依然可以使用 `site:域名` 查看网站是否被收录。进入[Google搜索中心](https://developers.google.com/search#?modal_active=none)，登录你的谷歌账号。然后找到[注册Search Console](https://search.google.com/search-console/welcome)(在“使用入门-->SEO新手指南”中可以找到入口)，就直接输入你要收录的网站域名就行。
 
+详细操作参考谷歌的[官方指南](https://support.google.com/webmasters/answer/9008080#html_verification&zippy=%2C%E5%9F%9F%E5%90%8D%E6%8F%90%E4%BE%9B%E5%95%86%2Chtml-%E6%A0%87%E8%AE%B0%2Chtml-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0)
+
 <img src="https://mikepicture.oss-cn-chengdu.aliyuncs.com/picture/image-20220904220444787.png" alt="image-20220904220444787" style="zoom: 67%;" />
 
 选择第一个或者第二个都可以的，我这里两个都选择了。
 
 “网址前缀”验证很简单，输入网址`https://qmike.top`即可直接验证。“网域”验证较为复杂，点击“继续”后，操作如下：
+
+> 可以添加所有的网址变体，包括https，http，www和非www变体
 
 <img src="https://mikepicture.oss-cn-chengdu.aliyuncs.com/picture/image-20220904221520736.png" alt="image-20220904221520736" style="zoom:67%;" />
 
