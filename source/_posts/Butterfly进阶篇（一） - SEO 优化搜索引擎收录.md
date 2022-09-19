@@ -1,8 +1,8 @@
 ---
-title: SEO优化搜索引擎收录
+title: Butterfly 进阶篇（一） - SEO 优化搜索引擎收录
 tags:
-  - null
-  - null
+  - 
+  - 
 categories:
   - 博客
 description: Butterfly主题安装的进阶内容，用过SEO完成优化搜索引擎对个人博客的收录

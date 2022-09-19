@@ -1,5 +1,5 @@
 ---
-title: Butterfly主题折腾笔记-进阶篇（更新中）
+title: Butterfly 主题折腾笔记 - 进阶篇功能预设（更新中)
 tags:
   - null
   - null
@@ -19,40 +19,6 @@ cover:
 魔改是一个非常折腾+耗时间的过程，或许本文会一直更新下去吧~（笑）
 
 > 心中默念一百遍：宁缺毋滥，宁缺毋滥......
-
-
-
-# 实现的功能
-
-## 1. SEO优化搜索引擎收录
-
-<details>
-<summary>点击查看实现步骤</summary>
-<table>
-  <tbody>
-    <tr>
-      <td>参考作者</td>
-      <td>教程原帖</td>
-    </tr>
-    <tr>
-      <td>ConstOwn博客</td>
-      <td><br>Hexo 框架 (六)：SEO 优化及站点被搜索引擎收录设置</td>
-    </tr>
-  </tbody>
-  <colgroup>
-    <col>
-    <col>
-  </colgroup>
-</table>
-参考教程<a href="http://c.biancheng.net" target="_blank">SEO优化引擎收录</a>
-</details>
-
-
-
-
-
-
-
 
 # 目前想实现的功能
 

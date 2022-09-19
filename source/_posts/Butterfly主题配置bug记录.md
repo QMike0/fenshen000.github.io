@@ -1,5 +1,5 @@
 ---
-title: butterfly主题配置bug记录（更新中）
+title: Butterfly主题配置bug记录（更新中）
 tags:
   - null
   - null
