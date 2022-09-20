@@ -125,5 +125,44 @@ YAMLException: duplicated mapping key (16:1)
 Front内容出现了重复，需要将重复内容删除
 ```
 
+# 5. 文章目录无法跳转
 
+点击文章页一级目录无反应，但二级目录可以正常跳转。打开浏览器右键菜单，点击“检查-控制台”查看`html`，发现点击目录一级标题后会出现如下报错：
+
+```
+Uncaught TypeError: Cannot read properties of null (reading 'offsetTop')
+    at Object.getEleTop (utils.js:208:25)
+    at HTMLDivElement.<anonymous> (main.js:369:30)
+```
+
+
+![image-20220921014231760](https://mikepicture.oss-cn-chengdu.aliyuncs.com/picture/image-20220921014231760.png)
+
+检查“页面元素”，发现目录一级标题的`'toc-link'`后没有正常生成`href`属性，因此无法实现跳转。
+
+![image-20220921014914595](https://mikepicture.oss-cn-chengdu.aliyuncs.com/picture/image-20220921014914595.png)
+
+出现此问题的原因是`markdown-it`插件的 bug，butterfly主题的博客是由`markdown-it`渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。
+
+解决方法是首先安装 markdown-it-named-headings 插件：
+
+```
+npm install markdown-it-named-headings --save
+```
+
+然后进入项目的根目录，修改根目录下 `node_modules\hexo-renderer-markdown-it\lib\renderer.js` 文件，在 `renderer.js` 中添加一行以使用此插件：
+
+```
+parser.use(require('markdown-it-named-headings'))
+```
+
+> 可能需要根据该文件中具体的代码格式进行适当修改
+
+我的修改效果如下：
+
+![修改js文件](https://mikepicture.oss-cn-chengdu.aliyuncs.com/picture/%E4%BF%AE%E6%94%B9js%E6%96%87%E4%BB%B6.png)
+
+记得保存修改，重新运行后即可正常实现目录一级标题的跳转。
+
+> 详细问题描述及解决方案参考[Hexo 博客踩坑 | blog (convivae.top)](https://convivae.top/posts/hexo-bo-ke-cai-keng/)
 

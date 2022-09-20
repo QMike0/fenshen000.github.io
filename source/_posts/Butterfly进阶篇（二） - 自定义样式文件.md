@@ -47,7 +47,7 @@ cover:
 
 # 3. 修改滚动条和鼠标
 
-样式文件参考github上的[代码](https://github.com/fenshen000/HexoStaticFile/tree/master/src/css)
+样式文件参考[github上的代码](https://github.com/fenshen000/HexoStaticFile/tree/master/src/css)
 
 在`style.css`样式表文档中添加代码：
 
