@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "悠悠の哉"
-subtitle: "Welcome here |ω・)"
-description: "什么都没有做的话，就不要去假装后悔"
+title: '悠悠の哉'
+subtitle: 'Welcome here |ω・)'
+description: '什么都没有做的话，就不要去假装后悔'
 keywords: blog, qmike, QMike, 博客, 悠悠, 悠悠哉, 悠悠の哉, qmike的博客, QMike的博客, qmike's blog, QMike's blog, QMike's Blog, 个人博客
 author: QMike
 language: zh-CN
-timezone: ""
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ""
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,21 +47,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ""
+  tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ""
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ""
+  path: ''
   per_page: 10
   order_by: -date
 
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -111,19 +111,19 @@ search:
   path: search.xml
   field: all
   content: true
-  # template: ./search.xml
+ # template: ./search.xml
 
 markdown:
   plugins:
     - plugin:
-      name: "@neilsustc/markdown-it-katex"
+      name: '@neilsustc/markdown-it-katex'
       options:
         strict: false
 
 # abbrlink config
 abbrlink:
-  alg: crc32 #support crc16(default) and crc32
-  rep: hex #support dec(default) and hex
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex        #support dec(default) and hex
 
 # 站点地图
 sitemap:
@@ -133,15 +133,15 @@ baidusitemap:
 
 # 主动推送百度，被百度收录
 baidu_url_submit:
-  count: 10 # 提交最新的10个链接
-  host: https://qmike.top # 百度站长平台中注册的域名
-  token: 8o8yrsp31FTnBm1i # 秘钥，百度站长平台 > 普通收录 > 推送接口 > 接口调用地址中token字段
-  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，不用改
+  count: 10                           # 提交最新的10个链接
+  host: https://qmike.top             # 百度站长平台中注册的域名
+  token: 8o8yrsp31FTnBm1i             # 秘钥，百度站长平台 > 普通收录 > 推送接口 > 接口调用地址中token字段
+  path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里，不用改
 
 nofollow:
   enable: true
   field: site
-  exclude: ""
+  exclude: ''
 
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
@@ -162,12 +162,10 @@ live2d:
     # use: ./wives/wanko # 相对于博客根目录的路径
     # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
-    position: left #控制看板娘相对位置
-    width: 180 #控制看板娘大小
-    height: 360 #控制看板娘大小
-    hOffset: 0 #控制看板娘平行位置
-    vOffset: -100 #控制看板娘垂直位置
+    position: right #控制看板娘位置
+    width: 150 #控制看板娘大小
+    height: 300 #控制看板娘大小
   mobile:
     show: true # 手机中是否展示
-  react:
-    opacity: 0.85 #设置透明度
+
+

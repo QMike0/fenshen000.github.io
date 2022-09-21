@@ -8,7 +8,7 @@ description: Win10下，基于Anaconda、Pycharm的Python环境搭建详细教�
 keywords: 'Python, Anaconda安装及使用, Pycharm, 配置python环境'
 abbrlink: be8ba79e
 date: 2022-09-02 17:17:00
-updated:
+updated: 2022-09-22 00:17:00
 top_image:
 cover:
 ---
@@ -25,29 +25,10 @@ cover:
 >
 > [Conda](https://so.csdn.net/so/search?q=Conda&spm=1001.2101.3001.7020)是一个开源的包、环境管理器，可以用于在同一个机器上安装不同版本的软件包及其依赖，并能够在不同的环境之间切换。
 >
-> 
->
-> Anaconda安装、配置：
->
-> - [Anaconda详细安装及使用教程（带图文）- CSDN](https://blog.csdn.net/ITLearnHall/article/details/81708148)
-> - [windows下Anaconda的安装与配置 - 脚本之家](https://www.jb51.net/article/137772.htm)
->
-> 配置镜像地址：
->
-> - [conda upgrade --all 失败解决方案](https://blog.csdn.net/JohnnyRian/article/details/88213063)
->
-> 修改虚拟环境安装地址：
->
-> - [Anaconda安装虚拟环境到指定路径 - 博客园](https://www.cnblogs.com/lemonbit/p/7068091.html)
-> - [Anaconda下安装虚拟环境到指定路径 - CSDN](https://blog.csdn.net/baigua3362/article/details/101559799)
-> - [一文解决安装Anaconda后C盘不断增加的问题、修改默认配置 - CSDN](https://blog.csdn.net/Chenftli/article/details/124901260)
->
-> 
->
-> **几个重要注意事项（后面都有相关对应案例！！！）**：
+> **几个重要注意事项（可以点击跳转至相关对应案例！！！）**：
 >
 > - [安装Anaconda时，不要选择“All uers”，而应该选择当前用户](#跳转1)
-> - [要习惯用“管理员权限”打开CMD，在输入相关命令，可以避免由于文件夹权限不足等受到限制](#跳转2)
+>- [要习惯用“管理员权限”打开CMD，在输入相关命令，可以避免由于文件夹权限不足等受到限制](#跳转2)
 
 ## 1. 安装及初始环境配置
 
@@ -504,21 +485,6 @@ pkgs_dirs:
 
 > 注：Anaconda应在Pycharm之前安装，可能会方便后续的设置
 >
-> 
->
-> Pycharm使用教程：
->
-> - [Pycharm编辑器教程 - 慕课网](https://www.imooc.com/wiki/pycharmlesson/introduce1.html)
->
->   > 注：文本教程，不是视频
->
-> “基于纯python环境”方法：
->
-> - [Pycharm配置环境及安装第三方库 - 简书](https://www.jianshu.com/p/bdeb237af302)
->
-> pycharm 创建运行、调试配置：
->
-> - [在 PyCharm 里创建运行/调试配置 - 慕课网](https://www.imooc.com/wiki/pycharmlesson/runningconfig.html)
 
 ## 1. 配置环境及安装第三方库
 
@@ -772,13 +738,50 @@ $FileName$
 
 [菜鸟教程-Python3 环境搭建](http://www.runoob.com/python3/python3-install.html)
 
-
-
 ## 2. 教程推荐
 
 [Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 [Python3 教程|菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
+
+
+
+# 参考教程
+
+## Anaconda相关
+
+Anaconda安装、配置：
+
+- [Anaconda详细安装及使用教程（带图文）- CSDN](https://blog.csdn.net/ITLearnHall/article/details/81708148)
+- [windows下Anaconda的安装与配置 - 脚本之家](https://www.jb51.net/article/137772.htm)
+
+配置镜像地址：
+
+- [conda upgrade --all 失败解决方案](https://blog.csdn.net/JohnnyRian/article/details/88213063)
+
+修改虚拟环境安装地址：
+
+- [Anaconda安装虚拟环境到指定路径 - 博客园](https://www.cnblogs.com/lemonbit/p/7068091.html)
+- [Anaconda下安装虚拟环境到指定路径 - CSDN](https://blog.csdn.net/baigua3362/article/details/101559799)
+- [一文解决安装Anaconda后C盘不断增加的问题、修改默认配置 - CSDN](https://blog.csdn.net/Chenftli/article/details/124901260)
+
+
+
+## Pycharm相关
+
+Pycharm使用教程：
+
+- [Pycharm编辑器教程 - 慕课网](https://www.imooc.com/wiki/pycharmlesson/introduce1.html)
+
+  > 注：文本教程，不是视频
+
+“基于纯python环境”方法：
+
+- [Pycharm配置环境及安装第三方库 - 简书](https://www.jianshu.com/p/bdeb237af302)
+
+pycharm 创建运行、调试配置：
+
+- [在 PyCharm 里创建运行/调试配置 - 慕课网](https://www.imooc.com/wiki/pycharmlesson/runningconfig.html)
 
 
 
